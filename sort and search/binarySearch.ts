@@ -5,8 +5,8 @@
 export function binarySearch(
   array: number[],
   element: number,
-  start = 0,
-  end = array.length - 1
+  start: number = 0,
+  end: number = array.length - 1
 ): number {
   // element not found in the array
   if (end < start) return -1;
