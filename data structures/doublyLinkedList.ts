@@ -18,10 +18,10 @@ export class LinkedList<T> {
    * Adds an item in O(1)
    */
   add(value: T) {
-    const node = {
+    const node: DoublyLinkedListNode<T> = {
       value,
-      next: undefined,
       prev: undefined,
+      next: undefined,
     };
     if (!this.head) {
       this.head = node;
