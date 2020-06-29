@@ -127,6 +127,6 @@ heap.add(2);
 heap.add(1);
 heap.add(3);
 
-console.log(heap.extractRoot());
-console.log(heap.extractRoot());
-console.log(heap.extractRoot());
+// console.log(heap.extractRoot());
+// console.log(heap.extractRoot());
+// console.log(heap.extractRoot());
